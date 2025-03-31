@@ -1,4 +1,63 @@
-.navigationbar nav
+body
 {
     margin: 0;
+    display: flex;
+    background-color: #30313D;
+}
+
+/* Box for main content */
+.main
+{
+    margin-left: 15%;
+    flex: 1;
+    transition: margin-left 0.3s ease;
+    color: white;
+}
+
+
+/* navigation bar */
+.navbar
+{
+    margin: 0;
+    width: 10%;
+    height: 100%;
+    background-color: #ff2c2c;
+    transition: width 0.3 ease;
+    overflow: hidden;
+    position: fixed;
+}
+/* when hovering the bar will expand */
+.navbar:hover
+{
+    width: 20%;
+}
+
+.navbar:hover ~ .main
+{
+    margin-left: 30%;
+}
+
+/* smaller box configs */
+.navbar nav ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar nav ul li {
+    padding: 15px;
+    border-bottom: 1px solid #4e4e5b;
+    transition: background 0.3s;
+}
+
+.navbar nav ul li:hover {
+    background: #30313D;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
