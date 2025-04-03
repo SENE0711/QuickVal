@@ -51,6 +51,7 @@ body
     transition: background 0.3s;
 }
 
+/* hover for navbar items */
 .navbar nav ul li:hover {
     background: #30313D;
 }
@@ -61,4 +62,3 @@ body
     display: flex;
     align-items: center;
 }
-
