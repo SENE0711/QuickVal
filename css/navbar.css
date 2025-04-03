@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     display: flex;
-    background-color: #30313D;
+    background-color: #4e4e5b;
 }
 
 /* Box for main content */
@@ -21,7 +21,7 @@ body
     margin: 0;
     width: 10%;
     height: 100%;
-    background-color: #ff2c2c;
+    background-color: #30313D;
     transition: width 0.3 ease;
     overflow: hidden;
     position: fixed;
@@ -47,7 +47,7 @@ body
 
 .navbar nav ul li {
     padding: 15px;
-    border-bottom: 1px solid #4e4e5b;
+    border-bottom: 1px solid #ff2c2c;
     transition: background 0.3s;
 }
 
