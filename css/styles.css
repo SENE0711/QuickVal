@@ -20,13 +20,12 @@ body
 .navbar
 {
     margin: 0;
-    width: 60px;
+    width: 70px;
     height: 100%;
     background-color: #30313D;
     transition: width 0.3 ease;
     overflow: hidden;
     position: fixed;
-    border-right: #FFFF solid 10px;
 }
 
 .navbar nav ul
@@ -55,6 +54,7 @@ body
     font-size: 20px;
     color: white;
     padding: 2px;
+    align-items: center;
 }
 
 .navbar nav ul li a p
@@ -65,7 +65,7 @@ body
     padding: 20px;
     margin-top: 24px;
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.2s;
 }
 
 
