@@ -2,15 +2,16 @@ body
 {
     margin: 0;
     display: flex;
-    background-color: #4e4e5b;
+    background-color: #24242e;
 }
 
 /* Box for main content */
 .main
 {
-    margin-left: 15%;
+    margin-left: 110px;
     flex: 1;
     transition: margin-left 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -19,25 +20,15 @@ body
 .navbar
 {
     margin: 0;
-    width: 10%;
+    width: 60px;
     height: 100%;
     background-color: #30313D;
     transition: width 0.3 ease;
     overflow: hidden;
     position: fixed;
-}
-/* when hovering the bar will expand */
-.navbar:hover
-{
-    width: 20%;
+    border-right: #FFFF solid 10px;
 }
 
-.navbar:hover ~ .main
-{
-    margin-left: 30%;
-}
-
-/* smaller box configs */
 .navbar nav ul
 {
     list-style: none;
@@ -46,19 +37,95 @@ body
 }
 
 .navbar nav ul li {
-    padding: 15px;
-    border-bottom: 1px solid #ff2c2c;
+    padding-left: 20px;
     transition: background 0.3s;
 }
 
-/* hover for navbar items */
-.navbar nav ul li:hover {
-    background: #30313D;
-}
-
 .navbar nav ul li a {
-    color: white;
+    /*color: white;*/
     text-decoration: none;
+    /*font-family: Arial, Helvetica, sans-serif;*/
     display: flex;
     align-items: center;
+    text-align: left;
 }
+
+.navbar nav ul li a h1
+{
+    font-size: 20px;
+    color: white;
+    padding: 2px;
+}
+
+.navbar nav ul li a p
+{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+    margin-top: 24px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+/*logo*/
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #30313D;
+}
+
+.logo img
+{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+}
+
+.logo-text
+{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* hovering config */
+.navbar:hover 
+{
+    width: 200px;
+}
+
+.navbar:hover ~ .main
+{
+    margin-left: 250px;
+}
+
+.navbar:hover .logo-text
+{
+    opacity: 1;
+    margin-right: 100px;
+}
+
+.navbar nav ul li:hover {
+    background: #4a4b58;
+}
+
+.navbar:hover nav ul li a p
+{
+    opacity: 1;
+}
+
+/* -------------------Index------------------- */
+/* index page */
