@@ -106,11 +106,6 @@ body
     width: 200px;
 }
 
-/*.navbar:hover ~ .main
-{
-    margin-left: 250px;
-}*/
-
 .navbar:hover .logo-text
 {
     opacity: 1;
