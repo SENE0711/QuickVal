@@ -216,11 +216,7 @@ body
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ------------------map and agent selection------------------ */
-.maTitle
-{
-    margin-left: 100px;
-}
+/* Map Selection */
 
 .mapNAgent
 {
@@ -228,13 +224,20 @@ body
     margin-right: 100px;
     display: flex;
     gap: 15px;
-    /* padding-bottom: 50px; */
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 5%;
     align-items: center;
 }
 
-.mapNAgent-image
+/* ------------------Text and media boxes------------------ */
+.Title
+{
+    margin-left: 100px;
+}
+
+
+
+.image-box
 {
     float: left;;
     width: 95%;
@@ -243,7 +246,7 @@ body
 
 }
 
-.mapNAgent-text
+.text-box
 {
     margin-left: 10%;
     float: left;
@@ -253,7 +256,7 @@ body
     
 }
 
-.mapNAgent-title
+.header-box
 {   
     margin-left: 10%;
     float: left;
@@ -264,7 +267,7 @@ body
 
 }
 
-.mapNAgent-image:hover
+.image-box:hover
 {
     border: #ffffff solid 2px;
     width: 100%;
