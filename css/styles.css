@@ -214,8 +214,29 @@ body
     font-size: 15px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-
 }
+
+/* map and agent selection */
+.mapNAgent
+{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.mapNAgent-image
+{
+    float: left;;
+    width: 19%;
+    height: 10%;
+    padding-left: 10%;
+}
+
+
+
 
 /* footer */
 .footer
@@ -230,3 +251,4 @@ body
     font-size: 14px;
     margin-top: 20px;
 }
+
